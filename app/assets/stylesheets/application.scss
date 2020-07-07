@@ -17,3 +17,18 @@ div.field_with_errors {
     border: 2px solid red;
   }
 }
+
+
+.base-container {
+  @extend .container-fluid;
+  max-width: var(--breakpoint-lg);
+  padding: 30px 15px;
+}
+
+.bg-navbar {
+  background-color: blue;
+}
+
+body {
+  padding: 56px;
+}
